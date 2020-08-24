@@ -25,10 +25,13 @@ public class HomeController {
 		return "San jose CA";
 	}
 	
+<<<<<<< HEAD
 	
 	@GetMapping("/users")
 	public String getAddress() {
 		return "yash and Druv";
+
+>>>>>>> c12687b5f6748c9e56cab216cf1d21385273a880
 	}
 
 }
