@@ -24,5 +24,10 @@ public class HomeController {
 	public String getAddress() {
 		return "San jose CA";
 	}
+	
+	@GetMapping("/use")
+	public String getAddress() {
+		return "Check thhis";
+	}
 
 }
