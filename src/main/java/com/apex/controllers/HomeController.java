@@ -18,5 +18,11 @@ public class HomeController {
 	public String getName(@PathVariable String name) {
 		return "Hello " + name;
 	}
+	
+	
+	@GetMapping("/address")
+	public String getName(@PathVariable String name) {
+		return "San jose CA";
+	}
 
 }
