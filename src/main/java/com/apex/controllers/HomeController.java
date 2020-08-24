@@ -29,7 +29,7 @@ public class HomeController {
 	
 	@GetMapping("/users")
 	public String getAddress() {
-		return "yash and Hardik";
+		return "yash and Har";
 
 
 }
