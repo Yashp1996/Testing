@@ -33,5 +33,10 @@ public class HomeController {
 
 >>>>>>> c12687b5f6748c9e56cab216cf1d21385273a880
 	}
+	
+	@GetMapping("/user")
+	public String getAddress() {
+		return "yash and Druv";
+	}
 
 }
