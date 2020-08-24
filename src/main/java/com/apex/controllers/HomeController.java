@@ -30,5 +30,10 @@ public class HomeController {
 	public String getAddress() {
 		return "yash and Druv";
 	}
+	
+	@GetMapping("/user")
+	public String getAddress() {
+		return "yash and Druv";
+	}
 
 }
