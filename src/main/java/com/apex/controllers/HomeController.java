@@ -24,5 +24,11 @@ public class HomeController {
 	public String getAddress() {
 		return "San jose CA";
 	}
+	
+	
+	@GetMapping("/users")
+	public String getAddress() {
+		return "yash and Druv";
+	}
 
 }
